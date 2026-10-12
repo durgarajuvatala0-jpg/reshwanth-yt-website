@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08090d">
+<title>RESHWANTH YT | Official Creator Hub</title>
+<meta name="description" content="Watch videos and YouTube Shorts from RESHWANTH YT.">
+<style>
+:root{--bg:#08090d;--card:#13151c;--line:#292c38;--red:#ff1744;--muted:#aeb2c0}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:radial-gradient(ellipse at 85% 0,#310b19 0,transparent 35%),var(--bg);color:#f8f8fb;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}
+header{position:sticky;top:0;z-index:5;background:#08090de8;backdrop-filter:blur(14px);border-bottom:1px solid #252630}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-size:1.08rem;font-weight:900;letter-spacing:.3px;white-space:nowrap}.brand b{color:var(--red)}
+.logo{display:inline-grid;place-items:center;background:var(--red);width:38px;height:28px;border-radius:8px;margin-right:9px;vertical-align:middle}.logo:after{content:"";border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:10px solid white;margin-left:3px}
+.links{display:flex;gap:24px;color:#d8dae2;font-size:.92rem}.links a:hover{color:var(--red)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--red);color:white;padding:12px 17px;border-radius:999px;font-weight:800;border:1px solid transparent}.btn:hover{background:#d9002d}.btn.outline{background:transparent;border-color:#555967}.btn.sm{padding:9px 13px;font-size:.85rem}
+.menu{display:none;background:#171923;color:white;border:1px solid var(--line);border-radius:9px;padding:8px 11px;font-size:1.1rem}
+.hero{padding:28px 0}.heroBox{min-height:350px;border:1px solid #3b2930;border-radius:24px;overflow:hidden;display:flex;align-items:center;background:linear-gradient(90deg,#05060af5 0%,#05060ad9 42%,#05060a2b 100%),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85') center/cover}
+.heroText{padding:clamp(24px,5vw,48px);max-width:660px}.eyebrow{color:#ff879d;text-transform:uppercase;letter-spacing:3px;font-size:.75rem;font-weight:900}
+h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.02;letter-spacing:-2px;margin:12px 0}h1 span{color:var(--red)}
+.hero p{color:#d4d6df;max-width:500px;font-size:1.05rem;line-height:1.7}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.pill{border:1px solid #48414a;background:#11121aab;padding:7px 11px;border-radius:99px;color:#ddd;font-size:.8rem}
+section.content{padding:22px 0}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:18px}.kicker{color:var(--red);font-size:.72rem;font-weight:900;letter-spacing:2px;text-transform:uppercase}
+h2{font-size:clamp(1.5rem,3vw,2rem);margin:4px 0}.muted{color:var(--muted);font-size:.9rem;margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:15px;overflow:hidden;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#69404b}
+.thumb{aspect-ratio:16/9;background:#20222a;position:relative;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover;display:block}.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:46px;height:32px;border-radius:9px;background:#ff1744ed}.play:after{content:"";position:absolute;left:19px;top:9px;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:10px solid white}
+.info{padding:12px}.info h3{font-size:.91rem;line-height:1.4;margin:0 0 7px}.meta{font-size:.78rem;color:var(--muted)}
+.shorts{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:13px}.shortThumb{aspect-ratio:9/16;position:relative;background:#20222a}.shortThumb img{width:100%;height:100%;object-fit:cover;display:block}.tag{position:absolute;top:8px;left:8px;background:var(--red);padding:4px 7px;border-radius:6px;font-size:.68rem;font-weight:900}.shortTitle{font-weight:750;font-size:.83rem;padding:10px}
+.callout{margin:34px auto;padding:24px;border:1px solid #49212d;border-radius:20px;background:linear-gradient(110deg,#250914,#13141b 75%);display:flex;align-items:center;justify-content:space-between;gap:18px}.callout p{color:var(--muted);margin:4px 0 0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px auto 38px}.aboutCard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}.aboutCard p{color:var(--muted);line-height:1.7}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:16px}.stat{text-align:center;padding:12px 5px;border-radius:12px;background:#1b1d27}.stat strong{display:block}.stat small{color:var(--muted)}
+.status{grid-column:1/-1;border:1px dashed #3a3d49;border-radius:14px;padding:18px;color:var(--muted);line-height:1.6}
+footer{border-top:1px solid var(--line);padding:24px 0 32px;color:var(--muted);font-size:.84rem}.foot{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.footLinks{display:flex;gap:14px;flex-wrap:wrap}
+@media(max-width:900px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.shorts{grid-template-columns:repeat(4,minmax(0,1fr))}.links{gap:14px}}
+@media(max-width:650px){.wrap{width:calc(100% - 24px)}.nav{height:62px}.links{display:none;position:absolute;top:66px;left:12px;right:12px;background:#13151c;border:1px solid var(--line);border-radius:13px;padding:12px;flex-direction:column;gap:0}.links.open{display:flex}.links a{padding:11px}.nav>.btn{display:none}.menu{display:block}.hero{padding:15px 0}.heroBox{min-height:410px;background-position:62% center;align-items:end}.heroBox:before{content:"";position:absolute}.heroText{padding:24px 18px;background:linear-gradient(0deg,#05060af5,#05060ab8,transparent)}h1{letter-spacing:-1px}.hero p{font-size:.96rem}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.info{padding:10px}.info h3{font-size:.83rem}.shorts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sectionHead{align-items:start}.sectionHead .btn{font-size:.75rem;padding:9px}.callout{align-items:flex-start;flex-direction:column;padding:20px}.about{grid-template-columns:1fr}.stat{padding:10px 3px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="logo"></span>RESHWANTH <b>YT</b></a>
+<nav class="links" id="links"><a href="#home">Home</a><a href="#videos">Videos</a><a href="#shorts">Shorts</a><a href="#about">About</a></nav>
+<a class="btn sm" href="https://www.youtube.com/@Reshwanth_YT" target="_blank" rel="noopener">▶ Subscribe</a>
+<button class="menu" id="menu" aria-label="Toggle navigation">☰</button>
+</div></header>
+<main id="home">
+<section class="hero wrap"><div class="heroBox"><div class="heroText">
+<div class="eyebrow">Welcome to my channel</div><h1>RESHWANTH <span>YT</span></h1>
+<p>Explore. Watch. Enjoy. Discover my latest videos, entertaining Shorts, village life, cars, tech and more.</p>
+<div class="actions"><a class="btn" href="https://www.youtube.com/@Reshwanth_YT" target="_blank" rel="noopener">▶ Subscribe Now</a><a class="btn outline" href="#videos">▷ Watch Videos</a></div>
+<div class="pills"><span class="pill">🎬 New Videos</span><span class="pill">⚡ Shorts</span><span class="pill">❤️ Creator Community</span></div>
+</div></div></section>
+<section class="content wrap" id="videos"><div class="sectionHead"><div><div class="kicker">Fresh from YouTube</div><h2>Latest Videos</h2><p class="muted">Recent uploads from RESHWANTH YT</p></div><a class="btn outline sm" href="https://www.youtube.com/@Reshwanth_YT/videos" target="_blank" rel="noopener">View All ↗</a></div>
+<div class="grid" id="videoGrid"><div class="status" id="videoStatus">Add a YouTube Data API key to load recent videos here automatically. You can browse all uploads using “View All”.</div></div></section>
+<section class="content wrap" id="shorts"><div class="sectionHead"><div><div class="kicker">Quick & entertaining</div><h2>YouTube Shorts</h2><p class="muted">Open Shorts on the official channel</p></div><a class="btn outline sm" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener">View All ↗</a></div>
+<div class="shorts">
+<a class="card" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener"><div class="shortThumb"><img loading="lazy" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=500&q=80" alt="City lights"><span class="tag">▶ SHORTS</span></div><div class="shortTitle">Latest Shorts ↗</div></a>
+<a class="card" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener"><div class="shortThumb"><img loading="lazy" src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=80" alt="Landscape"><span class="tag">▶ SHORTS</span></div><div class="shortTitle">Travel & Nature 🌿</div></a>
+<a class="card" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener"><div class="shortThumb"><img loading="lazy" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=500&q=80" alt="Sports car"><span class="tag">▶ SHORTS</span></div><div class="shortTitle">Cars & Auto 🏎️</div></a>
+<a class="card" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener"><div class="shortThumb"><img loading="lazy" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80" alt="Smartphone"><span class="tag">▶ SHORTS</span></div><div class="shortTitle">Tech & Gadgets 📱</div></a>
+<a class="card" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener"><div class="shortThumb"><img loading="lazy" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&q=80" alt="Mountains"><span class="tag">▶ SHORTS</span></div><div class="shortTitle">Explore More ✈️</div></a>
+<a class="card" href="https://www.youtube.com/@Reshwanth_YT/shorts" target="_blank" rel="noopener"><div class="shortThumb"><img loading="lazy" src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=500&q=80" alt="Sunrise"><span class="tag">▶ SHORTS</span></div><div class="shortTitle">Positive Vibes ✨</div></a>
+</div></section>
+<section class="wrap callout"><div><div class="kicker">Join the community</div><h2>Enjoying the content?</h2><p>Subscribe and never miss a new upload.</p></div><a class="btn" href="https://www.youtube.com/@Reshwanth_YT" target="_blank" rel="noopener">❤️ Subscribe on YouTube</a></section>
+<section class="wrap about" id="about"><div class="aboutCard"><div class="kicker">About the channel</div><h2>Welcome to RESHWANTH YT</h2><p>This is the official home for my YouTube videos and Shorts. Explore my latest uploads and be part of the journey. Thanks for supporting!</p><a class="btn sm" href="https://www.youtube.com/@Reshwanth_YT" target="_blank" rel="noopener">Visit Channel ↗</a></div><div class="aboutCard"><div class="kicker">Stay connected</div><h2>One channel. More to explore.</h2><div class="stats"><div class="stat"><strong>Videos</strong><small>Full uploads</small></div><div class="stat"><strong>Shorts</strong><small>Quick moments</small></div><div class="stat"><strong>Community</strong><small>Your support</small></div></div><p>New content is available on the official YouTube channel.</p></div></section>
+</main>
+<footer><div class="wrap foot"><a class="brand" href="#home"><span class="logo"></span>RESHWANTH <b>YT</b></a><span>© <span id="year"></span> RESHWANTH YT · Made with ❤️</span><div class="footLinks"><a href="https://www.youtube.com/@Reshwanth_YT" target="_blank" rel="noopener">YouTube</a><a href="#videos">Videos</a><a href="#shorts">Shorts</a><a href="#home">Back to top ↑</a></div></div></footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const menu=document.getElementById("menu"),links=document.getElementById("links");
+menu.addEventListener("click",()=>links.classList.toggle("open"));
+links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
+// OPTIONAL: Create a YouTube Data API v3 key and restrict it to your site.
+const API_KEY="PASTE_YOUR_API_KEY_HERE";
+async function loadVideos(){
+ if(!API_KEY||API_KEY==="PASTE_YOUR_API_KEY_HERE")return;
+ const grid=document.getElementById("videoGrid");
+ try{
+  const u=new URL("https://www.googleapis.com/youtube/v3/channels");
+  u.search=new URLSearchParams({part:"contentDetails",forHandle:"Reshwanth_YT",key:API_KEY});
+  const cr=await fetch(u);if(!cr.ok)throw Error();const cj=await cr.json();const ch=cj.items?.[0];if(!ch)throw Error();
+  const p=new URL("https://www.googleapis.com/youtube/v3/playlistItems");
+  p.search=new URLSearchParams({part:"snippet",playlistId:ch.contentDetails.relatedPlaylists.uploads,maxResults:"8",key:API_KEY});
+  const pr=await fetch(p);if(!pr.ok)throw Error();const pj=await pr.json();grid.replaceChildren();
+  for(const item of pj.items||[]){
+   const s=item.snippet,id=s.resourceId?.videoId;if(!id)continue;
+   const a=document.createElement("a");a.className="card";a.href="https://www.youtube.com/watch?v="+encodeURIComponent(id);a.target="_blank";a.rel="noopener";
+   const t=document.createElement("div");t.className="thumb";const img=document.createElement("img");img.loading="lazy";img.alt=s.title||"YouTube video";img.src=(s.thumbnails?.maxres||s.thumbnails?.high||s.thumbnails?.medium||{}).url||"";const play=document.createElement("span");play.className="play";t.append(img,play);
+   const info=document.createElement("div");info.className="info";const h=document.createElement("h3");h.textContent=s.title||"Watch video";const meta=document.createElement("div");meta.className="meta";meta.textContent=s.publishedAt?new Date(s.publishedAt).toLocaleDateString():"YouTube upload";info.append(h,meta);a.append(t,info);grid.append(a);
+  }
+  if(!grid.children.length)grid.innerHTML='<div class="status">No public uploads were returned. Visit the official channel to browse videos.</div>';
+ }catch(e){grid.innerHTML='<div class="status">Videos could not load. Check the API key, API access, quota and website restrictions.</div>';}
+}
+loadVideos();
+</script>
+</body>
+</html>
